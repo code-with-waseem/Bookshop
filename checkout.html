@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="package/swiper-bundle.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+      <!-------- font awesome cdn link --------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="heading-view">
+        <h1>checkout</h1>
+    </div>
+
+    <section>
+        <h2 class="section-heading">payment details</h2>
+        <div class="payment-form">
+            <div class="payment-method">
+
+                <button class="method selected">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <span>credit card</span>
+                    <i class='bx bxs-check-circle'></i>
+                </button>
+
+                <button class="method selected">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <span>bank</span>
+                    <i class='bx bx-check-circle'></i>
+                </button>
+
+                <button class="method selected">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <span>paypal</span>
+                    <i class='bx bx-check-circle'></i>
+                </button>
+            </div>
+
+            <form action="#">
+                <div class="cardholder-name">
+                    <label for="cardholder-name" class="label-default">cardholder name</label>
+                    <input type="text" placeholder="cardholder-name" name="cardholder-name" id="cardholder-name" class="input-default">
+                </div>
+
+                <div class="cardholder-name">
+                    <label for="card-number" class="label-default">card number</label>
+                    <input type="number" placeholder="card-number" name="card-number" id="card-number" class="input-default">
+                </div>
+
+                <div class="input-flex">
+                    <div class="expire-date">
+                        <label for="expire-date" class="label-default">expiration date</label>
+                        <div class="input-flex">
+                        <input type="number" name="day" id="expire-date" placeholder="31" min="1" max="31" class="input-default">
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

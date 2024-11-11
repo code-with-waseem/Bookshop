@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product detail</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+     <!-------- font awesome cdn link --------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <!-- Boxicons CSS -->
+         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+         <link rel="stylesheet" href="package/swiper-bundle.min.css">
+
+         <!-- J-Query file -->
+
+         <script type="text/javascript" src="package/jQuery.js"></script>
+
+
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Booksay </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>  
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart" id="heart-wish"> </a>
+            <div id="login-btn" class="fas fa-user"></div>
+            <a href="#" class="fas fa-shopping-cart" id="cart-icon"></a>
+        </div> 
+
+    </div>
+
+    <div class="header-2">
+      <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="index.html">featured</a>
+          <a href="index.html">arrivals</a>
+          <a href="index.html">reviews</a>
+          <a href="index.html">blogs</a>
+      </nav>
+  </div>
+  
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="index.html" class="fas fa-home"></a>
+    <a href="index.html" class="fas fa-list"></a>
+    <a href="index.html" class="fas fa-tags"></a>
+    <a href="index.html" class="fas fa-comments"></a>
+    <a href="index.html" class="fas fa-blog"></a>
+</nav>
+ 
+    <div class = "card-wrapper">
+        <div class = "card">
+          <!-- card left -->
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "./image/book1.jpg" alt = "">
+              </div>
+            </div> 
+          </div>
+          <!-- card right -->
+          <div class = "product-content">
+            <h2 class = "product-name">Rich dad poor dad</h2>
+            <a href = "index.html" class = "product-link">visit book shop</a>
+            <div class = "product-rating">
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star-half-alt"></i>
+              <span>4.7(10)</span>
+            </div>
+            <div class = "product-price">
+              <p class = "new-price">RS: <span>3000.00</span></p>
+            </div>
+  
+            <div class = "product-detail">
+              <h2>about book: </h2>
+              <p>
+                A bookstore website is an online place where people can search for and buy books from different categories. It usually has easy search tools, book descriptions, and reviews to help users choose what to read. Many websites also offer e-books and audiobooks, along with discounts and special deals. They provide secure payment options, and you can either get books shipped to you or download them. Some sites also have extra features like author interviews, blogs, and community spaces for readers to connect.</p>
+              <ul>
+                <li>Available: <span>in stock</span></li>
+                <li>Category: <span>English</span></li>
+                <li>Shipping Area: <span>All over the world</span></li>
+                <li>Shipping Fee: <span>Free</span></li>
+              </ul>
+            </div>
+  
+            <div class = "purchase-info">
+              <div class="value-add">
+                <input type = "number" min = "0" value = "1" style="padding: 6px;">
+                <a href="view.html"><button class="batn"><i class="fa-solid fa-cart-shopping"></i>add to cart</button></a>
+
+                
+              </div>
+                    
+
+            </div>
+   
+            <div class = "social-links">
+              <p>Share At: </p>
+              <a href = "#">
+                <i class = "fab fa-facebook-f"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-twitter"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-instagram"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-whatsapp"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <section class="product-all-info">
+        <!-- menu -->
+         <ul class="product-info-menu">
+            <li class ="p-info-list active">Description</li>
+            <li class="p-info-list" >Book details</li>
+            <li class="p-info-list">Reviews</li>
+            <div class="product-line"></div>
+         </ul>
+
+         <!-- info container -->
+          <div class="info-container">
+            <div class="des-content active">
+            <p>
+              Rich Dad Poor Dad is a bestselling personal finance book by Robert T. Kiyosaki that challenges conventional beliefs about money and success. The book tells the story of two influential figures in the author’s life: his real father, the "Poor Dad," who valued job security, formal education, and saving; and his best friend's father, the "Rich Dad," who focused on financial literacy, investing, and making money work for you. Through these contrasting perspectives, Kiyosaki explores how wealthy people think differently about money, encouraging readers to shift their mindset, invest in assets, and take control of their financial future. The book offers practical lessons on budgeting, investing, and the importance of financial education, making it a guide for anyone looking to achieve financial independence.
+             </p>
+            </div>
+
+            <div class="des-content">
+              <table>
+                <tr>
+                  <td>Book Title:</td>
+                  <td>Rich dad poor dad</td>
+                </tr>
+                <tr>
+                  <td>Aurthor:</td>
+                  <td>robert t.kiyosaki</td>
+                </tr>
+                <tr>
+                  <td>Edition:</td>
+                  <td>1937</td>
+                </tr>
+                <tr>
+                  <td>Category:</td>
+                  <td>English</td>
+                </tr>
+                <tr>
+                  <td>Condition:</td>
+                  <td>New</td>
+                </tr>
+                </table>
+            </div>
+            
+            <div class="des-content">
+              <h3>Writa a Review</h3>
+              <p>Please <a href="reg.html"></a>to review this product.</p>
+              <p>Everyone is gotta read this book at least before they leave earth. we suffer when solutions have always been right there with us. what i personally love about is that, its more than its title and suitable for persons of all ages and agendas be it you looking for riches or not. nothing can truly change in our lives if our minds do not change. in this book napoleon help us rewire our thinking and perceptions over again into producing a brain that is always capable and rids us of all the in-capacities we thought we had. reading this book will not only help your finances but your life as a whole : its your academics your career your spiritual life your family your dream and will also help you discover your purpose in life. i got mine while reading this book, really put the infinite mind to use, all thanks to the insights the author of this book placed.</p>
+              <div class = "product-ratings">
+                <i class = "fas fa-star"></i>
+                <i class = "fas fa-star"></i>
+                <i class = "fas fa-star"></i>
+                <i class = "fas fa-star"></i>
+                <i class = "fas fa-star-half-alt"></i>
+              </div>
+            </div>
+
+          </div>
+      </section>
+
+    
+      <!-- slider -->
+
+      <section id="team" class="also-like">
+        <h1 class="heading"> <span>You may also like</span> </h1>
+        <div class="testimonial-box">
+          <div class="container-1s">
+            <div class="row-1s">
+              <div class="col-lg-12">
+                <div class="team-slider owl-carousel">
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book1.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                 <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book2.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                 <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book3.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book4.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book5.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book6.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book9.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="single-box text-center box">
+                    <div class="icons">
+                      <i class="fa-regular fa-heart" id="adding"></i>
+                  </div>
+                  <div class="img-area">
+                    <a href="cart.html"><img class="img-fluid move-animation" src="./image/book8.jpg" alt="" class="product-img"></a> 
+                  </div> 
+                  <div class="content">
+                      <h3 class="product-title">Rich dad poor dad</h3>
+                      <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                        </div>
+                      <div class="price">$15.00<span>$20.00</span></div>
+                      <button class="btn-purchase"><i class="fa-solid fa-cart-shopping"></i>       add to cart</button>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+  <div class="footer-container">
+      <div class="footer-content">
+          <h2>Join Our Newsletter</h2>
+          <p>Signup to be the first to hear about exclusive deals, spacial offer and upcoming collections</p>
+          <div class="newsletter-email">
+              <input type="text" style="width: 55%;" placeholder = "Enter email for weekly Newsletter" >
+              <button class="sub">Subscribe</button>
+          </div>
+      </div>
+  </div>
+
+  <div class="box-container">
+
+      <div class="box">
+          <div class="booklogo">
+          <h3>B<span>O</span>O<span>k</span>S<span>a</span>y<span></span></h3><i class='bx bxs-book-bookmark'></i></div>
+          <p>Booksay is your online bookstore for all kinds of books.Enjoy great deals and find your next favorite book quickly and simply. Find your next favorite book with great deals.</p>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i>   Address: Sheikhupura </a>
+          <a href="#"> <i class="fas fa-phone"></i> +92300-12345678 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> Booksay@gmail.com </a>
+      </div>
+
+
+      <div class="box" id="footer1">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> home </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> featured </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> arrivals </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> reviews </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> blogs </a>
+      </div>
+
+      <div class="box" id="footer1">
+          <h3>extra links</h3>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> account info </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> ordered items </a>
+          <a href="privacy.html"> <i class="fa-solid fa-circle-right"></i> privacy policy </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> payment method </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> our serivces </a>
+      </div>
+
+      <div class="box" id="footer1">
+          <h3>Company</h3>
+          <a href=""> <i class="fa-solid fa-circle-right"></i> home </a>
+          <a href="about.html"> <i class="fa-solid fa-circle-right"></i> about </a>
+          <a href="terms.html"> <i class="fa-solid fa-circle-right"></i> terms </a>
+          <a href="privacy.html"> <i class="fa-solid fa-circle-right"></i> policy </a>
+          <a href="#"> <i class="fa-solid fa-circle-right"></i> contact </a>
+      </div>
+  </div>
+
+  <div class="wrapperss" id="footer-social">
+      <a href="#" class="button">
+         <div class="iconss">
+            <i class="fab fa-facebook-f"></i>
+         </div>
+      </a>
+      <a href="#" class="button">
+         <div class="iconss">
+            <i class="fab fa-twitter"></i>
+         </div>
+      </a>
+      <a href="#" class="button">
+         <div class="iconss">
+            <i class="fab fa-instagram"></i>
+         </div>
+      </a>
+      <a href="#" class="button">
+         <div class="iconss">
+            <i class="fab fa-youtube"></i>
+         </div>
+      </a>
+ </div>
+<!-- <div class="credit"> created by <span>Booksay</span> | all rights reserved! </div> -->
+
+</section>
+
+<div class="copyright-all">
+  <div class="copyright-text">
+      <p>Copyright &copy; 2024 | BookSay | All Right Reserved <a href=""></a></p>
+  </div>
+</div>
+
+ 
+
+<!-- footer section ends -->
+
+
+
+    <!--- swiper cdn link  -->
+
+    <script src="package/swiper-bundle.min.js"></script>
+
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>  
+
+
+ 
+
+    <!-- customer script link ---->
+    <script src="js/script.js"></script>
+
+    <script>
+      $('.team-slider').owlCarousel({
+  loop: true,            
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  smartSpeed: 850,
+  margin: 200,
+  responsive: {
+      0: {
+          items: 1
+      },
+      768: {
+          items: 2
+      },
+      1100: {
+          items: 3
+      },
+      1500: {
+          items: 4
+      },
+      1920: {
+          items: 5
+      }
+    }
+});
+    </script>
+</body>
+</html>
